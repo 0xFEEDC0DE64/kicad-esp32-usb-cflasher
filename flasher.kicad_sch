@@ -897,7 +897,7 @@
   (symbol (lib_id "power:+3.3V") (at 140.97 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13da0d53-d167-4f3d-ae67-7ca7c894a813)
-    (property "Reference" "#PWR0150" (at 140.97 44.45 0)
+    (property "Reference" "#PWR045" (at 140.97 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 142.24 38.1 0)
@@ -913,7 +913,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -922,7 +922,7 @@
   (symbol (lib_id "Device:LED") (at 125.095 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 190a4230-5cb4-42aa-8233-a8e65bf26e4d)
-    (property "Reference" "D12" (at 126.365 50.8 0)
+    (property "Reference" "D8" (at 126.365 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 123.825 52.07 0)
@@ -942,7 +942,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "D12") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1009,7 +1009,7 @@
   (symbol (lib_id "Device:LED") (at 125.095 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 335795f0-2197-4d48-8fa0-149063d38f8c)
-    (property "Reference" "D13" (at 126.365 57.15 0)
+    (property "Reference" "D9" (at 126.365 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED5V" (at 123.825 58.42 0)
@@ -1029,7 +1029,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "D13") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1038,7 +1038,7 @@
   (symbol (lib_id "power:GND") (at 111.76 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 373844a3-a164-4330-823d-b840b7c00441)
-    (property "Reference" "#PWR0149" (at 105.41 139.7 0)
+    (property "Reference" "#PWR040" (at 105.41 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 139.7 90)
@@ -1054,7 +1054,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1063,7 +1063,7 @@
   (symbol (lib_id "Device:LED") (at 125.095 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37ed2b04-85a9-4376-8a1f-28106f3c8b15)
-    (property "Reference" "D11" (at 126.365 43.18 0)
+    (property "Reference" "D7" (at 126.365 43.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 123.825 44.45 0)
@@ -1083,7 +1083,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "D11") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1092,7 +1092,7 @@
   (symbol (lib_id "power:+3.3V") (at 90.17 28.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 459ed5aa-eb20-4ba1-931c-70d4bc6a6989)
-    (property "Reference" "#PWR0152" (at 90.17 32.385 0)
+    (property "Reference" "#PWR037" (at 90.17 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 91.44 26.035 0)
@@ -1108,7 +1108,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
   (symbol (lib_id "power:GND") (at 121.285 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d3521ab-e945-49bc-b469-58b7173ddc8e)
-    (property "Reference" "#PWR0141" (at 114.935 48.26 0)
+    (property "Reference" "#PWR042" (at 114.935 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.745 48.26 90)
@@ -1162,7 +1162,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1316,7 +1316,7 @@
   (symbol (lib_id "power:GND") (at 90.17 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 763a463f-867f-4900-8d6e-3b640f5e1e15)
-    (property "Reference" "#PWR0153" (at 90.17 48.895 0)
+    (property "Reference" "#PWR038" (at 90.17 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 45.085 0)
@@ -1332,7 +1332,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1341,7 +1341,7 @@
   (symbol (lib_id "power:GND") (at 127 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78ed34aa-d260-46de-af47-81326e1a8e13)
-    (property "Reference" "#PWR0139" (at 127 88.9 0)
+    (property "Reference" "#PWR044" (at 127 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 85.09 0)
@@ -1357,7 +1357,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1366,7 +1366,7 @@
   (symbol (lib_id "power:+3.3V") (at 115.57 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79e10d58-0a8d-44e4-9932-08853a5b9ea4)
-    (property "Reference" "#PWR0142" (at 115.57 73.66 0)
+    (property "Reference" "#PWR041" (at 115.57 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 116.84 67.31 0)
@@ -1382,7 +1382,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1456,7 +1456,7 @@
   (symbol (lib_id "power:GND") (at 121.285 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c6b06f5-91b9-4c33-a76e-3e05c18251b3)
-    (property "Reference" "#PWR0140" (at 114.935 54.61 0)
+    (property "Reference" "#PWR043" (at 114.935 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.745 54.61 90)
@@ -1472,7 +1472,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1481,7 +1481,7 @@
   (symbol (lib_id "Device:LED") (at 125.095 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9087296b-b2ef-4bf4-9bee-9a7c2b1ef0af)
-    (property "Reference" "D10" (at 126.365 36.83 0)
+    (property "Reference" "D6" (at 126.365 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 123.825 38.1 0)
@@ -1501,7 +1501,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "D10") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1510,7 +1510,7 @@
   (symbol (lib_id "power:GND") (at 109.22 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 997e527e-cbc9-4d43-98de-278e85457776)
-    (property "Reference" "#PWR0148" (at 109.22 121.92 0)
+    (property "Reference" "#PWR039" (at 109.22 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 116.8399 0)
@@ -1526,7 +1526,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1585,22 +1585,22 @@
     (property "LCSC Part #" "C136423" (at 55.88 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ec1c19f-e6ee-41ef-acf4-a04e5162d375))
-    (pin "2" (uuid 369fd630-3aa1-4ae3-985a-9d3899d2aa6b))
-    (pin "3" (uuid 9afa5d54-e5d2-4b9c-aae6-8ac0142cddda))
-    (pin "4" (uuid 9a2f2eb5-5f08-43e0-b7b9-8c4d8b50fee8))
-    (pin "A1-B12" (uuid 30759a82-4825-4f96-ab3f-f7417bbe1183))
-    (pin "A4-B9" (uuid b1f6ecb9-cbbd-4830-ae19-5b9ce0094deb))
-    (pin "A5" (uuid 16534018-2751-44d5-8e17-20e74a3b94eb))
-    (pin "A6" (uuid b81db3e2-25cb-4d3d-b8ce-e66bcc29202c))
-    (pin "A7" (uuid 5e277ad9-8e41-4d62-9152-24f432493149))
-    (pin "A8" (uuid 9936b98e-fc90-472f-901d-11e23d326f72))
-    (pin "B1-A12" (uuid 30c733cc-013d-4066-b720-d1f9c96b55da))
-    (pin "B4-A9" (uuid 3db02618-abfd-4459-ad22-ad6968da0940))
-    (pin "B5" (uuid 98b8e8df-57ec-4947-9b47-de35ec77c919))
-    (pin "B6" (uuid e4c623c8-09fb-4158-8eb9-3b2eec187b18))
-    (pin "B7" (uuid 51e3829a-eca7-4606-a294-71858d587c4d))
-    (pin "B8" (uuid 3e3df5a7-c869-4f26-9e19-f9a92a8fa4b9))
+    (pin "1" (uuid 55411c90-e968-4343-9c26-a368b8f78d9f))
+    (pin "2" (uuid 45f101b6-44b0-4a80-9ac8-1b60ec6f1727))
+    (pin "3" (uuid 54ccdc63-4eab-4474-964d-17ca812b4888))
+    (pin "4" (uuid e4774928-74b9-4d51-b695-21fd4d2add16))
+    (pin "A1-B12" (uuid 6333aaac-c907-4ac4-98f3-31a3ce1922a8))
+    (pin "A4-B9" (uuid 71030c5c-0b73-4c4d-b22c-cde4ed08cb34))
+    (pin "A5" (uuid 399bd624-c1a9-40c4-99b8-df30990888f9))
+    (pin "A6" (uuid 27cf5d78-b09b-4364-8976-9b603dba5d09))
+    (pin "A7" (uuid 0cdc994a-5cd4-4368-bfa1-a0cd3a6e935d))
+    (pin "A8" (uuid 59ea5107-fde8-4a1b-bb11-07d47a61346d))
+    (pin "B1-A12" (uuid e523abd7-558a-437a-8df3-887dfd151a9b))
+    (pin "B4-A9" (uuid c11bae6e-b893-4ee4-9a64-44966a166a94))
+    (pin "B5" (uuid 412f6a63-0dee-4cdb-a1ec-bc0358a96075))
+    (pin "B6" (uuid 7a2ba227-236f-461f-be3a-64b85b5f1a35))
+    (pin "B7" (uuid 9cfb7ad6-ddcc-4bd9-9362-f27fd2bc6d2b))
+    (pin "B8" (uuid 1e998e7a-dc31-4c90-bc58-2186408354e6))
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
@@ -1613,7 +1613,7 @@
   (symbol (lib_id "power:GND") (at 62.23 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5b78ee8-fbff-44f0-9737-708773771110)
-    (property "Reference" "#PWR0145" (at 62.23 64.135 0)
+    (property "Reference" "#PWR034" (at 62.23 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 59.0549 0)
@@ -1629,7 +1629,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1667,7 +1667,7 @@
   (symbol (lib_id "power:GND") (at 160.655 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bce4c4a4-7576-41fc-a600-e678db0b6fb8)
-    (property "Reference" "#PWR0151" (at 160.655 50.165 0)
+    (property "Reference" "#PWR046" (at 160.655 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.005 46.355 0)
@@ -1683,7 +1683,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1692,7 +1692,7 @@
   (symbol (lib_id "power:GND") (at 35.56 89.535 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c78496ce-da9c-43c5-bddd-773a5732f7ee)
-    (property "Reference" "#PWR0146" (at 29.21 89.535 0)
+    (property "Reference" "#PWR032" (at 29.21 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 89.5349 90)
@@ -1708,7 +1708,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1753,7 +1753,7 @@
   (symbol (lib_id "wch-usb-uart:CH343G") (at 109.22 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d51b9850-8e9d-41d4-b6ce-4414a5fe709c)
-    (property "Reference" "U10" (at 111.2394 114.3 0)
+    (property "Reference" "U5" (at 111.2394 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CH343G" (at 111.2394 116.84 0)
@@ -1787,7 +1787,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "U10") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1825,7 +1825,7 @@
   (symbol (lib_id "power:GND") (at 76.2 89.535 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8107ea3-e39e-4a58-afaa-96c3940d39e6)
-    (property "Reference" "#PWR0143" (at 82.55 89.535 0)
+    (property "Reference" "#PWR036" (at 82.55 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 89.535 90)
@@ -1841,7 +1841,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1850,7 +1850,7 @@
   (symbol (lib_id "power:GND") (at 68.58 97.155 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec49c41e-3ad6-4900-a9b2-48c09fe1987f)
-    (property "Reference" "#PWR0144" (at 74.93 97.155 0)
+    (property "Reference" "#PWR035" (at 74.93 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 97.1549 90)
@@ -1866,7 +1866,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "power:GND") (at 43.18 81.915 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6b2b020-ac63-48cc-9785-e9c83aa47df3)
-    (property "Reference" "#PWR0147" (at 36.83 81.915 0)
+    (property "Reference" "#PWR033" (at 36.83 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 81.915 90)
@@ -1891,7 +1891,7 @@
     (instances
       (project "esp32_midi"
         (path "/e33c0603-5c0d-4712-ab63-5756d1504b4c/2c215fe4-7c9a-4ae0-9a5d-913b04975b72"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
